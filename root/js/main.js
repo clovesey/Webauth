@@ -1,16 +1,13 @@
 var item;
 function choose(choice){
-item = "5";
+item = 5;
 localStorage.setItem("key", item);
 }
 window.onload = function() {
-	item = 4;
+	item = 1;
 	showSlides(item)
 };
 
-
-
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
