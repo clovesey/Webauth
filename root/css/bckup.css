@@ -1,0 +1,68 @@
+img{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-height: 10vw;
+  
+  
+}
+.greybox {
+ background-color:
+}
+@media only screen and (min-width: 501px) {
+body{
+	background-image: url("https://pm1.narvii.com/6775/3e7f4fc859dfff79b73273d798c909accf3a3c19v2_hq.jpg");
+	background-size: auto% auto%;
+	  background-repeat: no-repeat;
+  background-attachment: fixed;
+	
+}
+
+}
+@media only screen and (max-width: 500px) {
+
+body {
+  background-color: #464646;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color: white;
+  float:none;
+  padding: 100px;
+}
+.header{
+	width: 100%;
+	height:50%;
+	background-color: #1DE9B6;
+	overflow:visible;
+	float:none;
+	
+	padding-bottom:50px;
+}
+
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+}
+

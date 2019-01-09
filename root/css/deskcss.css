@@ -1,0 +1,23 @@
+}
+@media only screen and (min-width: 501px) {
+body{
+	background-image: url("https://pm1.narvii.com/6775/3e7f4fc859dfff79b73273d798c909accf3a3c19v2_hq.jpg");
+	background-size: auto% auto%;
+	  background-repeat: no-repeat;
+  background-attachment: fixed;
+	
+}
+.topbar{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	max-height:15vh;
+	background-color: #556111;
+	overflow:visible;
+	float:none;
+	
+}
+}
+@media only screen and (max-width: 500px) {

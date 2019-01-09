@@ -1,0 +1,72 @@
+<!DOCTYPE HTMl>
+<html>
+<head>
+<title>MF DOOM | Official Site - Home</title>
+<link rel = "stylesheet" href = "css/drp.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+<script src="js/main.js"></script>
+
+</head>
+<body>
+<div class ="grnblock">
+<img class = "toplogo" src = "assets/logo.png">
+</div>
+<div class="topnav" id="myTopnav">
+
+  <a href="main.html" class="active">Home</a>
+  <a href="news.html">News</a>
+  <a href="photo.html">Photos</a>
+  <a href="video.html">Videos</a>
+  <a href="music.html">Music</a>
+
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+
+<a href = "photo.html" class ="border">
+       <img class="mySlides" src="assets/madv.jpg" class="car-img">
+       <img class="mySlides" src="assets/czar.jpg" class="car-img">
+       <img class="mySlides" src="assets/dapwc70eq9111.png" class="car-img">
+       <img class="mySlides" src="assets/jj-doom-bookhead-video-lead.jpg" class="car-img">
+       <img class="mySlides" src="assets/lsnzpwh1fxd11.jpg" class="car-img">
+       <img class="mySlides" src="assets/145885-full-size-mf-doom-wallpaper-1920x1080-for-windows-10.jpg" class="car-img">
+       <img class="mySlides" src="assets/reyjzqeot3kq3ttxhiyt.webp" class="car-img">
+</a>
+
+<div class = "socialbar">
+<a href="https://www.facebook.com/mfdoom/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/mfdoom" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com/channel/UC6Y8dX3XdGsp2akU-SKfreA" class="fa fa-youtube"></a>
+<a href="https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL" class="fa fa-spotify"></a>
+
+</div>
+<p>Latest video</p>
+<iframe width="614" height="320" src="https://www.youtube.com/embed/xPEP58nr0IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>DJ MUGGS X DOOM X KOOL G RAP - ASSASSINATION DAY <br></br>
+DJ Muggs, MF DOOM and Kool G Rap team up on this one off track Assassination Day, blending their unique flow, dark and gritty sound.<br></br>This totals up to a great track which is very much worth a listen </p>
+
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  setTimeout(carousel, 3000);
+}
+</script>
+</body>
+
+
+</html>
