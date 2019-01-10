@@ -8,7 +8,7 @@ window.onload = function() {
 	showSlides(item)
 };
 
-function myFunction() {
+function Dropdown() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -32,7 +32,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("Slides");
   var dots = document.getElementsByClassName("select");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
